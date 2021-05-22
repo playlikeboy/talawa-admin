@@ -1,4 +1,4 @@
-name: CI for React Project
+name: Continuous Integration
 on: [pull_request]
 jobs:
   build:
@@ -9,6 +9,5 @@ jobs:
         run: yarn
       - name: Run tests
         run: yarn test
-      - name: Run ESLint and Prettier
-        run: yarn lint
+
         
